@@ -11,15 +11,6 @@ export interface Author {
     posts: Category[][];
 }
 
-// export interface Post {
-//     author?: Author;
-//     createdAt: string;
-//     excerpt: string;
-//     featuredImage: {url: string};
-//     slug: string;
-//     title: string;
-// }
-
 export interface ContentSlice {
     type: string;
     children: {text:string}[]
@@ -33,6 +24,7 @@ export interface Post {
     slug: string;
     title: string;
     content: {raw: {children: ContentSlice[]}}
+    categories?: Category[]
 }
 
 
