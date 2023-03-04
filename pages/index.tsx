@@ -24,7 +24,6 @@ const Home: NextPage<GraphQLPost> = ({posts}) => {
           </div>
         </div>
       </div>
-      
     </div>
   )
 }

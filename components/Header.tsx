@@ -48,7 +48,7 @@ const Header:FC = () => {
         <div className="block mr-auto">
           <Link href="/">
             <span className="cursor-pointer font-bold text-4xl text-gray-700 dark:text-white">
-              GraphCmd
+              Bloggy
             </span>
           </Link>
         </div>
